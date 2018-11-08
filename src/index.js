@@ -15,7 +15,7 @@ You can call it then like this:
 
 // [ X ] Create a button and an empty div for the coming images.
 // [ X ] Install and use uuid.
-// [   ] Create the class for the Api.
+// [ X ] Create the class for the Api.
 
 ("use strict");
 
