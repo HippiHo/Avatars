@@ -1,0 +1,16 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+/* Global
+----------------------------*/
+
+body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#avatars {
+  border: 1px black solid;
+  padding: 1rem;
+  width: 50%;
+}
