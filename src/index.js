@@ -23,7 +23,11 @@ class AvatarApi {
   // Setting up the properties, we need in our class
   constructor() {
     this.apiUrl = "https://avatars.dicebear.com/v2";
-    this.genderEndpoint = "/:sprites";
+    this.genderEndpoint = {
+      female: "/female",
+      male: "/male",
+      identicon: "/identicon"
+    };
     this.codeEndpoint = "/:seed.svg";
 
     // Registering the form events
@@ -48,9 +52,11 @@ class AvatarApi {
   }
 
   getAvatars() {
-    const url1 = `${this.apiUrl}${this.getURL()}`;
-    const url2 = `${this.apiUrl}${this.getURL()}`;
-    const url3 = `${this.apiUrl}${this.getURL()}`;
+    const url1 = `${this.apiUrl}${this.genderEndpoint.female}${this.getURL()}`;
+    const url2 = `${this.apiUrl}${
+      this.genderEndpoint.identicon
+    }${this.getURL()}`;
+    const url3 = `${this.apiUrl}${this.genderEndpoint.male}${this.getURL()}`;
 
     console.log("get data", url1, url2, url3);
 
@@ -59,11 +65,9 @@ class AvatarApi {
 
   getURL() {
     const uuid = require("uuid/v4");
-    const endpointOne = this.genderEndpoint.replace(":sprites", "female");
-    const endpointTwo = this.codeEndpoint.replace(":seed", uuid());
-    const endpoint = `${endpointOne}${endpointTwo}`;
+    const firstEndpoint = this.codeEndpoint.replace(":seed", uuid());
 
-    return endpoint;
+    return firstEndpoint;
   }
 }
 
