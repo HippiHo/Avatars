@@ -1,4 +1,4 @@
-# Coder girls generator with 
+# Coder girls generator with API call
 
 ![alt coder girls](./coder_girls.png)
 
