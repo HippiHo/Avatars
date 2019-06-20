@@ -1,17 +1,22 @@
-# Bootstrap 4 + WebPack 4 = Boilerplate
+# Coder girls generator with 
+
+![alt coder girls](./coder_girls.png)
+
+
+## Bootstrap 4 + WebPack 4 = Boilerplate
 
 This is a basic boilerplate using Bootstrap 4 with SCSS and WebPack, to have an easy and fast setup for new website projects to build upon.
 
-## Installation
+### Installation
 
 1. Clone the repository
 2. Run `npm install` or `yarn` on the command line
 
-## Build
+### Build
 
 Run the command `npm run build` to run webpack in `production` mode.
 
-## Development
+### Development
 
 Run the command `npm run dev` to run webpack and let it watch for file changes to recompile, when needed.
 # Avatars
