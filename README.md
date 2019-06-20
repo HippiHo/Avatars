@@ -19,4 +19,4 @@ Run the command `npm run build` to run webpack in `production` mode.
 ### Development
 
 Run the command `npm run dev` to run webpack and let it watch for file changes to recompile, when needed.
-# Avatars
+
