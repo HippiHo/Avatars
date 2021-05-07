@@ -583,6 +583,29 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@dicebear/avatars-female-sprites@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dicebear/avatars-female-sprites/-/avatars-female-sprites-1.0.4.tgz#caa5bdae4a150c66317dc5a8d66f65cfc4df08c9"
+  integrity sha512-zI66zGAh0xVhp9PHUTFaotZkWdijWIzw5EstdRFAVLCFt4WiTY/scdXb15HxPjYLfNDzgmr2brv56evWzzeINg==
+
+"@dicebear/avatars-identicon-sprites@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@dicebear/avatars-identicon-sprites/-/avatars-identicon-sprites-1.0.3.tgz#f903a56b594a8dd484eebc409c6c3204ff8121c9"
+  integrity sha512-h/y4DSUKIUdc3kDXJelaKvkAOX+iDDcUGttlEjicAyhhUD+z8W196BFuchN27RLJq3SixQYzvwzSC1xhbOk4Cw==
+
+"@dicebear/avatars-male-sprites@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dicebear/avatars-male-sprites/-/avatars-male-sprites-1.0.4.tgz#bc3a34a6933e9aed806f47cf1a6c92f1166db7fa"
+  integrity sha1-vDo0ppM+mu2Ab0fPGmyS8RZtt/o=
+
+"@dicebear/avatars@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@dicebear/avatars/-/avatars-2.0.4.tgz#d9e6e2555808d6921a34891ce39a0230004081d2"
+  integrity sha1-2ebiVVgI1pIaNIkc45oCMABAgdI=
+  dependencies:
+    pure-color "^1.3.0"
+    seedrandom "^2.4.3"
+
 "@webassemblyjs/ast@1.7.8":
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.8.tgz#f31f480debeef957f01b623f27eabc695fa4fe8f"
@@ -2816,9 +2839,9 @@ lodash.tail@^4.1.1:
   integrity sha1-0jM6NtnncXyK0vfKyv7HwytERmQ=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@~4.17.10:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3766,6 +3789,11 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+pure-color@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/pure-color/-/pure-color-1.3.0.tgz#1fe064fb0ac851f0de61320a8bf796836422f33e"
+  integrity sha1-H+Bk+wrIUfDeYTIKi/eWg2Qi8z4=
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -4107,6 +4135,11 @@ scss-tokenizer@^0.2.3:
   dependencies:
     js-base64 "^2.1.8"
     source-map "^0.4.2"
+
+seedrandom@^2.4.3:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-2.4.4.tgz#b25ea98632c73e45f58b77cfaa931678df01f9ba"
+  integrity sha512-9A+PDmgm+2du77B5i0Ip2cxOqqHjgNxnBgglxLcX78A2D6c2rTo61z4jnVABpF4cKeDMDG+cmXXvdnqse2VqMA==
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.6.0"
